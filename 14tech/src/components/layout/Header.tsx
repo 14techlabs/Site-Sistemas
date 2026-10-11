@@ -8,7 +8,7 @@ export function Header({ activeSection, onToggle, onNavigate }: Props) {
     <header className="site-header">
       <div className="container header-inner">
         <button className="brand-button" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Ir para o início">
-          <img src="./brand/LOGO-14-TECH-ORIGINAL-HORIZONTAL.png" alt="14 Tech" className="brand-logo" />
+          <img src="/brand/LOGO-14-TECH-AZULHORIZONTAL.png" alt="14 Tech" className="brand-logo" />
         </button>
         <nav className="desktop-nav" aria-label="Navegação principal">
           {navigation.map(([label, id]) => (
