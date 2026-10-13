@@ -7,6 +7,7 @@ const systemIcons: Record<string, string> = {
   gardian: "./systems/GARDIAN/icon_gardian.png",
   suapre: "./systems/SUAPRE/icon_suapre.png",
   sigac: "./systems/SIGAC/icon_sigac.png",
+  frotason: "./systems/Frotas-ON/icon_frotason.png",
 };
 
 type HeroProps = {
@@ -72,7 +73,9 @@ export function Hero({ onContact, onSystems }: HeroProps) {
             <div className="ecosystem-orbit" aria-hidden="true" />
             <div className="ecosystem-center">
               <img src="./brand/LOGO-14-TECH-BRANCA.png" alt="14Tech" />
-              <span>Ecossistema digital</span>
+              <span>
+                Gestão Pública <br /> Integrada
+              </span>
             </div>
 
             <div className="ecosystem-path">

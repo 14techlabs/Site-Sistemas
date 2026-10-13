@@ -36,7 +36,7 @@ export const systems: System[] = [
     eyebrow: "Sistema Integrado de Gestão Ambiental Compartilhada",
     description: "Acompanha o processo de licenciamento ambiental, da solicitação do cidadão à emissão da licença, além da gestão de fiscalização.",
     href: "./SIGAC/",
-    logo: "./systems/SIGAC/logo_sigac.png",
+    logo: "./systems/SIGAC/icon_sigac.png",
     preview: "./systems/SIGAC/dashboard_sigac.png",
     theme: "sigac",
   },
