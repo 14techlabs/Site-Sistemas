@@ -3,7 +3,7 @@
 .vscode/
 *.iml
 
-# Sistema
+# OS
 .DS_Store
 Thumbs.db
 
@@ -12,12 +12,18 @@ node_modules/
 *.log
 npm-debug.log*
 
-# Build
+# Build and test artifacts
 dist/
 build/
 .vite/
+.turbo/
+coverage/
+playwright-report/
+test-results/
+artifacts/screenshots/
 
-# Env
+# Environment
 .env
 .env.local
 .env.*.local
+!.env.example

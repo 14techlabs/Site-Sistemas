@@ -1,0 +1,13 @@
+{
+  "name": "@14tech/styles",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    "./tokens.css": "./src/tokens.css",
+    "./themes/*": "./src/themes/*"
+  }
+}

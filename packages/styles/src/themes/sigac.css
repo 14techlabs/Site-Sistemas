@@ -1,0 +1,6 @@
+:root[data-theme="sigac"] {
+  --ds-color-primary: #176b52;
+  --ds-color-accent: #2f9e78;
+  --ds-color-surface: #ffffff;
+  --ds-color-text: #172b25;
+}

@@ -1,0 +1,19 @@
+:root {
+  --ds-font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --ds-radius-sm: 0.25rem;
+  --ds-radius-md: 0.5rem;
+  --ds-radius-lg: 0.75rem;
+  --ds-space-1: 0.25rem;
+  --ds-space-2: 0.5rem;
+  --ds-space-3: 0.75rem;
+  --ds-space-4: 1rem;
+  --ds-space-6: 1.5rem;
+  --ds-space-8: 2rem;
+  --ds-color-white: #ffffff;
+  --ds-color-black: #000000;
+  --ds-color-text: #191c1e;
+  --ds-color-surface: #ffffff;
+  --ds-color-border: #e5e7eb;
+  --ds-color-primary: #051125;
+  --ds-color-primary-foreground: #ffffff;
+}

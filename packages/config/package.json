@@ -1,0 +1,11 @@
+{
+  "name": "@14tech/config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint/index.js",
+    "./tsconfig/base": "./tsconfig/base.json",
+    "./vite": "./vite/index.ts"
+  }
+}

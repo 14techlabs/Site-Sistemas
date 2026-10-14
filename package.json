@@ -1,0 +1,27 @@
+{
+  "name": "14tech-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12.0 <23",
+    "npm": ">=10.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "verify": "turbo run verify",
+    "clean": "turbo run clean && node -e \"const fs=require('node:fs'); for (const p of ['node_modules']) fs.rmSync(p,{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0",
+    "turbo": "^2.5.8"
+  },
+  "packageManager": "npm@11.6.1"
+}
