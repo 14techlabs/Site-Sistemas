@@ -10,7 +10,7 @@ export const site = {
     "Caminho das Árvores, Salvador - BA",
   ],
   company: ["14 TECH", "CNPJ: 60.360.603/0001-26"],
-  instagram: "https://www.instagram.com/14tech__",
+  instagram: "https://www.instagram.com/14techgestaopublica",
 };
 
 export const navigation = [

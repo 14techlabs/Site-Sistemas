@@ -7,4 +7,4 @@ export const MOCKUPS = {
 
 
 export const WHATSAPP_NUMBER = "5571996828698";
-export const CONTACT_EMAIL = "contato@gardian.com.br";
+export const CONTACT_EMAIL = "contato@14tech.com.br";

@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 
 export const WHATSAPP_NUMBER = "5573999321323";
-export const CONTACT_EMAIL = "contato@suapre.com.br";
+export const CONTACT_EMAIL = "contato@14tech.com.br";
 
 export const challenges = [
   [Network, "Baixa integração entre setores", "Secretarias, compras, licitação e financeiro precisam trabalhar com a mesma informação."],

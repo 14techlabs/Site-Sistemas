@@ -776,7 +776,7 @@ button, a {
 }
 
 .modules-header span {
-  color: var(--green);
+  color: var(--white);
   font-family: 'JetBrains Mono', ui-monospace, monospace;
   font-size: 10px;
   text-transform: uppercase;
